@@ -248,6 +248,7 @@ namespace SEALNETExamples
             var plainResult = new Plaintext();
             Console.Write("Decrypting result: ");
             decryptor.Decrypt(encrypted1, plainResult);
+
             Console.WriteLine($"Decoded results: {encoder.DecodeInt32(plainResult)}");
 
         }
